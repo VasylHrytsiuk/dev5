@@ -1,0 +1,8 @@
+ssh-keygen
+git clone 
+ git branch network_part_2
+git checkout network_part_2
+cat > file
+git add file
+git commit -m "add newfile"
+git push
