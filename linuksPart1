@@ -1,0 +1,9 @@
+1 sudo su
+2 yum update -y
+3 yum install -y httpd
+4 systemctl start httpd.service
+5 systemctl enable httpd.service
+6 yum install stress -y
+7 top
+8 sudo killall stress
+9 top
